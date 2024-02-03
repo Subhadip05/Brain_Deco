@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_TV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/txt_view_1_top_view"
+            android:textSize="25sp"
+            tools:text="@string/tv1_a" />
+
+
+        <TextView
+            android:id="@+id/result_TV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/txt_view_1_top_view"
+            android:layout_marginBottom="@dimen/txt_view_2_top_view"
+            android:textSize="25sp"
+            android:text="20/100" />
+
+
+        <ImageView
+            android:id="@+id/emojiID"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/smile"
+            tools:ignore="ContentDescription"/>
+
+
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/txt_view_3_top_view"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/tv1_b"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                >
+
+                <Button
+                    android:onClick="restart"
+                    android:text="@string/restart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="18dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#24A629"
+                    android:layout_weight="0.5"/>
+
+                <Button
+                    android:onClick="exit"
+                    android:text="@string/exit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="18dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

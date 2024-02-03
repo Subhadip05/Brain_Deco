@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Padding_all_Title">12dp</dimen>
+    <dimen name="title_margin">6dp</dimen>
+
+
+    <dimen name="left_margin_ans">14dp</dimen>
+    <dimen name="left_margin_question">12dp</dimen>
+    <dimen name="top_margin_question">6dp</dimen>
+
+    <dimen name="padding_all_submit">6dp</dimen>
+    <dimen name="spacing_btw_question">12dp</dimen>
+
+<!--    result activity-->
+    <dimen name="txt_view_1_top_view">12dp</dimen>
+    <dimen name="txt_view_2_top_view">12dp</dimen>
+    <dimen name="txt_view_3_top_view">12dp</dimen>
+
+    <dimen name="restart_margin_top">25dp</dimen>
+    <dimen name="exit_margin_top">16dp</dimen>
+    <dimen name="exit_margin_bottom">16dp</dimen>
+
+</resources>

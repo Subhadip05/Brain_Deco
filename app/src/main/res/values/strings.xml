@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Brain Deco</string>
+    <string name="Quiz_Description"> Java MCQ Question</string>
+
+    <string name="Title">Quiz about the knowledge in Java</string>
+
+    <!--    Quiz question 1-->
+    <string name="Question1">1. Number of primitive data types present in java?</string>
+    <string name="q1_op1">6</string>
+    <string name="q1_op2">7</string>
+    <string name="q1_op3">8</string>
+    <string name="q1_op4">9</string>
+
+    <!--    Quiz question 2-->
+    <string name="Question2">2. What is the size of float and double in java?</string>
+    <string name="q2_op1">32 and 64</string>
+    <string name="q2_op2">32 and 32</string>
+    <string name="q2_op3">64 and 64</string>
+    <string name="q2_op4">64 and 32</string>
+
+    <!--    Quiz question 3-->
+    <string name="Question3">3. Automatic type conversion is possible in which of the possible cases? </string>
+    <string name="q3_op1">Byte to int</string>
+    <string name="q3_op2">int to Long</string>
+    <string name="q3_op3">Long to int</string>
+    <string name="q3_op4">short to int</string>
+
+    <!--    Quiz question 4-->
+    <string name="Question4">
+        4.Find the output  of the following code \n
+        int Integer = 24; \n
+        char String = \'I\';\n
+        System.out.println(Integer); \n
+        System.out.println(String);
+    </string>
+    <string name="q4_op1"> compiler Error</string>
+    <string name="q4_op2"> Throws Exception</string>
+    <string name="q4_op3"> I </string>
+    <string name="q4_op4"> 24 I</string>
+
+    <!--    Quiz question 5-->
+    <string name="Question5">5. When an array is passed to a method, what does the method receive? </string>
+    <string name="q5_op1"> The reference of the array</string>
+    <string name="q5_op2">A copy of the array</string>
+    <string name="q5_op3">Length of the array</string>
+    <string name="q5_op4">Copy of first element</string>
+
+    <!--    Quiz question 6-->
+    <string name="Question6">6.Select the valid statement to declare and initialize an array? </string>
+    <string name="q6_op1">int[] A = {}</string>
+    <string name="q6_op2">int[] A = {1,2,3}</string>
+    <string name="q6_op3">int[] A = (1,2,3)</string>
+    <string name="q6_op4">int[][] A = {1,2,3}</string>
+
+
+    <!--    Quiz question 7-->
+    <string name="Question7">7. Array in java are </string>
+    <string name="q7_op1">Object reference</string>
+    <string name="q7_op2">Object</string>
+    <string name="q7_op3">Primitive data type</string>
+    <string name="q7_op4">None</string>
+
+    <!--    Quiz question 8-->
+    <string name="Question8">8. When is the object created with new keyword? </string>
+    <string name="q8_op1">At run time</string>
+    <string name="q8_op2">At compile time</string>
+    <string name="q8_op3">Depends on the code</string>
+    <string name="q8_op4">None</string>
+
+
+    <!--    Quiz question 9-->
+    <string name="Question9">9. Identify the corrected definition of a package? </string>
+    <string name="q9_op1">A package is a collection of editing tools</string>
+    <string name="q9_op2">A package is a collection of classes</string>
+    <string name="q9_op3">A package is a collection of classes and interfaces</string>
+    <string name="q9_op4">A package is a collection of interfaces</string>
+
+
+    <!--    Quiz question 10-->
+    <string name="Question10">10. compareTo() returns</string>
+    <string name="q10_op1">True</string>
+    <string name="q10_op2">False</string>
+    <string name="q10_op3">At int value</string>
+    <string name="q10_op4">None</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="attempt_all_question">You must Attempt All the Question</string>
+
+    <string name="result">Result</string>
+
+<!--    if your score is less than 30-->
+    <string name="tv1_a">Your Score is</string>
+    <string name="tv1_b">Too Bad ! You Must Read Java Core Topics Carefully</string>
+
+    <!--    if your score is less than 50-->
+    <string name="tv2_a">Your Score is</string>
+    <string name="tv2_b">You Need to Understand topics carefully</string>
+
+    <!--    if your score is less than 75-->
+    <string name="tv3_a">Your Score is</string>
+    <string name="tv3_b">A Little more effort is required</string>
+
+    <!--    if your score is greater than 75-->
+    <string name="tv4_a">Your Score is</string>
+    <string name="tv4_b">Your Knowledge in Java is Fabulous</string>
+
+
+    <!--    if your score is greater than 90-->
+    <string name="from_hundred">/100</string>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+
+
+
+</resources>
